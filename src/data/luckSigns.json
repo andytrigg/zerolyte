@@ -1,0 +1,34 @@
+[
+  {
+    "birth_augur": "Harsh winter",
+    "lucky_roll": "All attack rolls"
+  },
+  {
+    "birth_augur": "The bull",
+    "lucky_roll": "Melee attack rolls"
+  },
+  {
+    "birth_augur": "Fortunate date",
+    "lucky_roll": "Missile fire attack rolls"
+  },
+  {
+    "birth_augur": "Raised by wolves",
+    "lucky_roll": "Unarmed attack rolls"
+  },
+  {
+    "birth_augur": "Conceived on horseback",
+    "lucky_roll": "Mounted attack rolls"
+  },
+  {
+    "birth_augur": "Born on the battlefield",
+    "lucky_roll": "Damage rolls"
+  },
+  {
+    "birth_augur": "Path of the bear",
+    "lucky_roll": "Melee damage rolls"
+  },
+  {
+    "birth_augur": "Hawkeye",
+    "lucky_roll": "Missile fire damage rolls"
+  }
+]

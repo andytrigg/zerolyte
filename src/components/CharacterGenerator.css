@@ -1,0 +1,13 @@
+.mod-positive {
+    color: green;
+    font-weight: bold;
+}
+
+.mod-neutral {
+    color: gray;
+}
+
+.mod-negative {
+    color: red;
+    font-weight: bold;
+}

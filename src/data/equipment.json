@@ -1,0 +1,14 @@
+[
+  {
+    "item": "Backpack",
+    "cost": {"gp": 2,"sp": 0,"cp": 0}
+  },
+  {
+    "item": "Candle",
+    "cost": {"gp": 0,"sp": 0,"cp": 1}
+  },
+  {
+    "item": "Chain, 10'",
+    "cost": {"gp": 30,"sp": 0,"cp": 0}
+  }
+]

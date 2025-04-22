@@ -1,0 +1,37 @@
+export type Occupation = {
+    occupation: string;
+    trained_weapon: string;
+    trade_goods: string;
+};
+
+export type LuckySign = {
+    birth_augur: string;
+    lucky_roll: string;
+
+}
+
+export type Attribute = {
+    value: number;
+    modifier: number;
+}
+
+export type Money = {
+    gp: number;
+    sp: number;
+    cp: number;
+};
+
+export type Character = {
+    hit_points: number;
+    level: number;
+    strength: Attribute;
+    agility: Attribute;
+    stamina: Attribute;
+    intelligence: Attribute;
+    personality: Attribute;
+    luck: Attribute;
+    occupation: Occupation;
+    luckySign: LuckySign;
+    funds: Money;
+    experience_points: number;
+};

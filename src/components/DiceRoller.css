@@ -1,0 +1,13 @@
+
+@keyframes shake {
+    0% { transform: translate(0, 0) rotate(0); }
+    20% { transform: translate(-3px, 2px) rotate(-2deg); }
+    40% { transform: translate(3px, -1px) rotate(2deg); }
+    60% { transform: translate(-2px, 1px) rotate(-1deg); }
+    80% { transform: translate(2px, -2px) rotate(1deg); }
+    100% { transform: translate(0, 0) rotate(0); }
+}
+
+.shake {
+    animation: shake 0.5s ease;
+}

@@ -1,0 +1,28 @@
+/* CharacterSheet.css */
+.character-sheet {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+.sheet-header {
+    text-align: center;
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+}
+
+.abilities, .equipment, .funds {
+    margin-bottom: 20px;
+}
+
+.abilities ul, .equipment ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.abilities li, .equipment li {
+    margin-bottom: 5px;
+}

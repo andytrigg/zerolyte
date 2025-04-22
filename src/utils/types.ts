@@ -29,6 +29,7 @@ export type EquipmentItem = {
 export type Alignment = 'Lawful' | 'Neutral' | 'Chaotic';
 
 export type Character = {
+    name: string;
     alignment: Alignment;
     hit_points: number;
     level: number;
@@ -43,4 +44,5 @@ export type Character = {
     funds: Currency;
     experience_points: number;
     equipment: EquipmentItem[];
+    baseSpeed: number;
 };

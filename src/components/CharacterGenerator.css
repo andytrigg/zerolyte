@@ -20,39 +20,3 @@
     background-color: #6a1b9a;
 }
 
-.character-card {
-    display: inline-block;
-    text-align: left;
-    background: #1e1e1e;
-    color: #f0f0f0;
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    max-width: 300px;
-}
-
-.character-card h3 {
-    margin-top: 0;
-    border-bottom: 1px solid #555;
-    padding-bottom: 0.5rem;
-}
-
-.abilities {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.3rem 1rem;
-    margin: 1rem 0;
-    font-family: monospace;
-}
-
-.alignment-lawful {
-    color: blue;
-}
-
-.alignment-neutral {
-    color: gray;
-}
-
-.alignment-chaotic {
-    color: red;
-}

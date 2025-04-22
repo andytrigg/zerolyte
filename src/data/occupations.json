@@ -2,401 +2,801 @@
   {
     "occupation": "Alchemist",
     "trained_weapon": "Staff",
-    "trade_goods": "Oil (1 flask)"
+    "trade_goods": "Oil (1 flask)",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Animal Trainer",
     "trained_weapon": "Club",
-    "trade_goods": "Pony"
+    "trade_goods": "Pony",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Armorer",
     "trained_weapon": "Hammer (as club)",
-    "trade_goods": "Iron Helmet"
+    "trade_goods": "Iron Helmet",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Astrologer",
     "trained_weapon": "Dagger",
-    "trade_goods": "Spyglass"
+    "trade_goods": "Spyglass",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Barber",
     "trained_weapon": "Razor (as dagger)",
-    "trade_goods": "Scissors"
+    "trade_goods": "Scissors",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Beadle",
     "trained_weapon": "Staff",
-    "trade_goods": "Holy Symbol"
+    "trade_goods": "Holy Symbol",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Beekeeper",
     "trained_weapon": "Staff",
-    "trade_goods": "Jar of honey"
+    "trade_goods": "Jar of honey",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Blacksmith",
     "trained_weapon": "Hammer (as club)",
-    "trade_goods": "Steel tongs"
+    "trade_goods": "Steel tongs",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Butcher",
     "trained_weapon": "Cleave (as axe)",
-    "trade_goods": "Side of beef"
+    "trade_goods": "Side of beef",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Caravan guard",
     "trained_weapon": "Short sword",
-    "trade_goods": "Linen, 1 yard"
+    "trade_goods": "Linen, 1 yard",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Cheesemaker",
     "trained_weapon": "Cudgel (as staff)",
-    "trade_goods": "Stinky cheese"
+    "trade_goods": "Stinky cheese",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Cobbler",
     "trained_weapon": "Awl (as dagger)",
-    "trade_goods": "Shoehorn"
+    "trade_goods": "Shoehorn",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Confidence artist",
     "trained_weapon": "Dagger",
-    "trade_goods": "Quality cloak"
+    "trade_goods": "Quality cloak",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Cooper",
     "trained_weapon": "Crowbar (as club)",
-    "trade_goods": "Barrel"
+    "trade_goods": "Barrel",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Costermonger",
     "trained_weapon": "Knife (as dagger)",
-    "trade_goods": "fruit"
+    "trade_goods": "fruit",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Cutpurse",
     "trained_weapon": "Dagger",
-    "trade_goods": "Small chest"
+    "trade_goods": "Small chest",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Ditch digger",
     "trained_weapon": "Shovel (as staff)",
-    "trade_goods": "Fine dirt (1 lb.)"
+    "trade_goods": "Fine dirt (1 lb.)",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Dock worker",
     "trained_weapon": "Pole (as staff)",
-    "trade_goods": "Wooden crate"
+    "trade_goods": "Wooden crate",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Dwarven apothecarist",
     "trained_weapon": "Cudgel (as staff)",
-    "trade_goods": "Steel vial"
+    "trade_goods": "Steel vial",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Dwarven blacksmith",
     "trained_weapon": "Hammer (as club)",
-    "trade_goods": "Mithril, 1oz."
+    "trade_goods": "Mithril, 1oz.",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Dwarven chest-maker",
     "trained_weapon": "Chisel (as dagger)",
-    "trade_goods": "Wood, 10lbs."
+    "trade_goods": "Wood, 10lbs.",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Dwarven herder",
     "trained_weapon": "Staff",
-    "trade_goods": "Sow**"
+    "trade_goods": "Sow**",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Dwarven miner",
     "trained_weapon": "Pick (as club)",
-    "trade_goods": "Lantern"
+    "trade_goods": "Lantern",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Dwarven  mushroom-farmer",
     "trained_weapon": "Shovel (as staff)",
-    "trade_goods": "Sack"
+    "trade_goods": "Sack",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Dwarven rat-catcher",
     "trained_weapon": "Club",
-    "trade_goods": "Net"
+    "trade_goods": "Net",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Dwarven stonemason",
     "trained_weapon": "Hammer (as club)",
-    "trade_goods": "Fine stone (10 lbs)"
+    "trade_goods": "Fine stone (10 lbs)",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Elven artisen",
     "trained_weapon": "Staff",
-    "trade_goods": "Clay, 1lb."
+    "trade_goods": "Clay, 1lb.",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Elven barrister",
     "trained_weapon": "Quill (as dart)",
-    "trade_goods": "Book"
+    "trade_goods": "Book",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Elven chandler",
     "trained_weapon": "Scissors (as dagger)",
-    "trade_goods": "Candles, 20"
+    "trade_goods": "Candles, 20",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Elven falconer",
     "trained_weapon": "Dagger",
-    "trade_goods": "Falcon"
+    "trade_goods": "Falcon",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Elven forester",
     "trained_weapon": "Staff",
-    "trade_goods": "Herbs, 1lb."
+    "trade_goods": "Herbs, 1lb.",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Elven glassblower",
     "trained_weapon": "Hammer (as club)",
-    "trade_goods": "Glass beads"
+    "trade_goods": "Glass beads",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Elven navigator",
     "trained_weapon": "Shortbow",
-    "trade_goods": "Spyglass"
+    "trade_goods": "Spyglass",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Elven sage",
     "trained_weapon": "Dagger",
-    "trade_goods": "Parchment and quill pen"
+    "trade_goods": "Parchment and quill pen",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Dwarven stonemason",
     "trained_weapon": "Hammer (as club)",
-    "trade_goods": "Chisel"
+    "trade_goods": "Chisel",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Farmer*",
     "trained_weapon": "Pitchform (as spear)",
-    "trade_goods": "Hen **"
+    "trade_goods": "Hen **",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Fortune-teller",
     "trained_weapon": "Dagger",
-    "trade_goods": "Tarot deck"
+    "trade_goods": "Tarot deck",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Gambler",
     "trained_weapon": "Club",
-    "trade_goods": "Dice"
+    "trade_goods": "Dice",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Gongfarmer",
     "trained_weapon": "Trowel (as dagger)",
-    "trade_goods": "Sack of night soil"
+    "trade_goods": "Sack of night soil",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
-    "occupation": "Grave digger"  ,
+    "occupation": "Grave digger",
     "trained_weapon": "Shovel (as staff)",
-    "trade_goods": "Trowel"
+    "trade_goods": "Trowel",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Guild beggar",
     "trained_weapon": "Sling",
-    "trade_goods": "Crutches"
+    "trade_goods": "Crutches",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Halfling chicken butcher",
     "trained_weapon": "Handaxe",
-    "trade_goods": "Chicken meat (5 lbs.)"
+    "trade_goods": "Chicken meat (5 lbs.)",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Halfling dyer",
     "trained_weapon": "Staff",
-    "trade_goods": "Fabric, 3 yards"
+    "trade_goods": "Fabric, 3 yards",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Halfling glovemaker",
     "trained_weapon": "Awl (as dagger)",
-    "trade_goods": "Gloves, 4 pairs"
+    "trade_goods": "Gloves, 4 pairs",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Halfling wanderer",
     "trained_weapon": "Sling",
-    "trade_goods": "Hex doll"
+    "trade_goods": "Hex doll",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Halfling haberdasher",
     "trained_weapon": "Scissors (as dagger)",
-    "trade_goods": "Fine suits, 3 sets"
+    "trade_goods": "Fine suits, 3 sets",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Halfling mariner",
     "trained_weapon": "Knife (as dagger)",
-    "trade_goods": "Sailcloth (2 yards)"
+    "trade_goods": "Sailcloth (2 yards)",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Halfling moneylender",
     "trained_weapon": "Short sword",
-    "trade_goods": "5 gp, 10 sp, 200 cp"
+    "trade_goods": null,
+    "funds": {
+      "gp": 5,
+      "sp": 10,
+      "cp": 200
+    }
   },
   {
     "occupation": "Halfling trader",
     "trained_weapon": "Short sword",
-    "trade_goods": "20 sp"
+    "trade_goods": null,
+    "funds": {
+      "gp": 0,
+      "sp": 20,
+      "cp": 0
+    }
   },
   {
     "occupation": "Halfling vagrant",
     "trained_weapon": "Club",
-    "trade_goods": "Begging bowl"
+    "trade_goods": "Begging bowl",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Healer",
     "trained_weapon": "Club",
-    "trade_goods": "Holy water (1 vial)"
+    "trade_goods": "Holy water (1 vial)",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Herbalist",
     "trained_weapon": "Club",
-    "trade_goods": "Herbs (1 lb.)"
+    "trade_goods": "Herbs (1 lb.)",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Herder",
     "trained_weapon": "Staff",
-    "trade_goods": "Herding dog**"
+    "trade_goods": "Herding dog**",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Hunter",
     "trained_weapon": "Shortbow",
-    "trade_goods": "Deer pelt"
+    "trade_goods": "Deer pelt",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Indentured servant",
     "trained_weapon": "Staff",
-    "trade_goods": "Locket"
+    "trade_goods": "Locket",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Jester",
     "trained_weapon": "Dart",
-    "trade_goods": "Silk clothes"
+    "trade_goods": "Silk clothes",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Jeweler",
     "trained_weapon": "Dagger",
-    "trade_goods": "Gem worth 20 gp"
+    "trade_goods": "Gem worth 20 gp",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Locksmith",
     "trained_weapon": "Dagger",
-    "trade_goods": "Fine tools"
+    "trade_goods": "Fine tools",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Mendicant",
     "trained_weapon": "Club",
-    "trade_goods": "Cheese dip"
+    "trade_goods": "Cheese dip",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Merchant",
     "trained_weapon": "Dagger",
-    "trade_goods": "4 gp 14 sp 27 cp"
+    "trade_goods": null,
+    "funds": {
+      "gp": 4,
+      "sp": 14,
+      "cp": 27
+    }
   },
   {
     "occupation": "Miller/Baker",
     "trained_weapon": "Club",
-    "trade_goods": "Flour, 1lb."
+    "trade_goods": "Flour, 1lb.",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Minstrel",
     "trained_weapon": "Dagger",
-    "trade_goods": "Ukulele"
+    "trade_goods": "Ukulele",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Noble",
     "trained_weapon": "Longsword",
-    "trade_goods": "Gold ring worth 10GP"
+    "trade_goods": "Gold ring worth 10GP",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Orphan",
     "trained_weapon": "Club",
-    "trade_goods": "Rag doll"
+    "trade_goods": "Rag doll",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Ostler",
     "trained_weapon": "Staff",
-    "trade_goods": "Bridle"
+    "trade_goods": "Bridle",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Outlaw",
     "trained_weapon": "Short sword",
-    "trade_goods": "Leather armor"
+    "trade_goods": "Leather armor",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Rope maker",
     "trained_weapon": "Knife (as dagger)",
-    "trade_goods": "Rope (100’)"
+    "trade_goods": "Rope (100’)",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Scribe",
     "trained_weapon": "Dart",
-    "trade_goods": "Parchment (10 sheets)"
+    "trade_goods": "Parchment (10 sheets)",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Shaman",
     "trained_weapon": "Mace",
-    "trade_goods": "Herbs, 1 lb."
+    "trade_goods": "Herbs, 1 lb.",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Slave",
     "trained_weapon": "Club",
-    "trade_goods": "Strange-looking rock"
+    "trade_goods": "Strange-looking rock",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Smuggler",
     "trained_weapon": "Sling",
-    "trade_goods": "Waterproof sack"
+    "trade_goods": "Waterproof sack",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Soldier",
     "trained_weapon": "Spear",
-    "trade_goods": "Shield"
+    "trade_goods": "Shield",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Squire",
     "trained_weapon": "Longsword",
-    "trade_goods": "Steel Helmet"
+    "trade_goods": "Steel Helmet",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Tax collector",
     "trained_weapon": "Longsword",
-    "trade_goods": "100 cp"
+    "trade_goods": null,
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 100
+    }
   },
   {
     "occupation": "Trapper",
     "trained_weapon": "Sling",
-    "trade_goods": "Badger pelt"
+    "trade_goods": "Badger pelt",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Urchin",
     "trained_weapon": "Stick (as club)",
-    "trade_goods": "Begging bowl"
+    "trade_goods": "Begging bowl",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Wainwright",
     "trained_weapon": "Club",
-    "trade_goods": "Pushcart"
+    "trade_goods": "Pushcart",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Weaver",
     "trained_weapon": "Dagger",
-    "trade_goods": "Fine Suit of clothes"
+    "trade_goods": "Fine Suit of clothes",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Wizard’s apprentice",
     "trained_weapon": "Dagger",
-    "trade_goods": "Black grimoire"
+    "trade_goods": "Black grimoire",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "occupation": "Woodcutter",
     "trained_weapon": "Handaxe",
-    "trade_goods": "Bundle of wood"
+    "trade_goods": "Bundle of wood",
+    "funds": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    }
   }
 ]

@@ -1,13 +1,13 @@
 export type Occupation = {
     occupation: string;
     trained_weapon: string;
-    trade_goods: string;
+    trade_goods: string | null;
+    funds: Currency;
 };
 
 export type LuckySign = {
     birth_augur: string;
     lucky_roll: string;
-
 }
 
 export type Attribute = {
@@ -43,6 +43,7 @@ export type Character = {
     luckySign: LuckySign;
     funds: Currency;
     experience_points: number;
-    equipment: EquipmentItem[];
+    weapons: string[];
+    equipment: string[];
     baseSpeed: number;
 };

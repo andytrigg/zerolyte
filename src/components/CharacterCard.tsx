@@ -44,12 +44,22 @@ const CharacterCard: React.FC<CharacterCardProps> = ({ character }) => {
                 <strong>Funds:</strong> <CurrencyDisplay funds={character.funds}/>
             </p>
             <p>
+                <strong>Weapon:</strong>
+            </p>
+            <ul>
+                {character.weapons.map((weapon, idx) => (
+                    <li key={idx}>
+                        {weapon}
+                    </li>
+                ))}
+            </ul>
+            <p>
                 <strong>Equipment:</strong>
             </p>
             <ul>
-                {character.equipment.map((eq, idx) => (
+                {character.equipment.map((equipment, idx) => (
                     <li key={idx}>
-                        {eq.item} (<CurrencyDisplay funds={eq.cost}/>)
+                        {equipment}
                     </li>
                 ))}
             </ul>

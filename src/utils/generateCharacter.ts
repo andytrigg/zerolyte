@@ -4,7 +4,7 @@ import luckSignsData from '../data/luckSigns.json';
 import equipmentData from '../data/equipment.json';
 import {Occupation, Character, LuckySign, Currency, EquipmentItem, Alignment} from './types';
 import {getAbilityModifier} from "./modifiers";
-import {normalizeFunds} from "./currency"; // if you split your types
+import {addFunds, normalizeFunds} from "./currency"; // if you split your types
 
 function generateStartingFunds(): Currency {
     const copper = rollDice(5, 12).reduce((sum, roll) => sum + roll, 0);
@@ -18,12 +18,18 @@ function baseSpeed(occupation: Occupation): number {
     return 30
 }
 
+const occupations: Occupation[] = occupationData as Occupation[];
+
 export function generateCharacter(name: string, alignment: Alignment): Character {
     const roll3d6 = () => rollDice(3, 6).reduce((a, b) => a + b, 0);
     const roll1d4 = () => rollDice(1, 4).reduce((a, b) => a + b, 0);
-    const occupation: Occupation = occupationData[Math.floor(Math.random() * occupationData.length)];
+    const occupation: Occupation = occupations[Math.floor(Math.random() * occupationData.length)];
     const luckySign: LuckySign = luckSignsData[Math.floor(Math.random() * luckSignsData.length)];
     const startingEquipment: EquipmentItem = equipmentData[Math.floor(Math.random() * equipmentData.length)];
+    const equipment = [
+        ...(occupation.trade_goods ? [occupation.trade_goods] : []),
+        startingEquipment.item
+    ];
     let strength = roll3d6();
     let agility = roll3d6();
     let stamina = roll3d6();
@@ -63,8 +69,9 @@ export function generateCharacter(name: string, alignment: Alignment): Character
         occupation,
         luckySign: luckySign,
         hit_points: roll1d4() + Math.max(0, staminaModifier),
-        funds: generateStartingFunds(),
+        funds: addFunds(generateStartingFunds(), occupation.funds),
         baseSpeed: baseSpeed(occupation),
-        equipment: [startingEquipment]
+        weapons: [occupation.trained_weapon],
+        equipment: equipment
     };
 }

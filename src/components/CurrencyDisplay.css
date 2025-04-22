@@ -1,0 +1,14 @@
+.coin-gp {
+    color: #FFD700; /* Gold */
+    font-weight: bold;
+}
+
+.coin-sp {
+    color: #C0C0C0; /* Silver */
+    font-weight: bold;
+}
+
+.coin-cp {
+    color: #CD7F32; /* Copper */
+    font-weight: bold;
+}

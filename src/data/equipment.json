@@ -1,14 +1,194 @@
 [
   {
     "item": "Backpack",
-    "cost": {"gp": 2,"sp": 0,"cp": 0}
+    "cost": {
+      "gp": 2,
+      "sp": 0,
+      "cp": 0
+    }
   },
   {
     "item": "Candle",
-    "cost": {"gp": 0,"sp": 0,"cp": 1}
+    "cost": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 1
+    }
   },
   {
     "item": "Chain, 10'",
-    "cost": {"gp": 30,"sp": 0,"cp": 0}
+    "cost": {
+      "gp": 30,
+      "sp": 0,
+      "cp": 0
+    }
+  },
+  {
+    "item": "Chalk, 1 piece",
+    "cost": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 1
+    }
+  },
+  {
+    "item": "Chest, empty",
+    "cost": {
+      "gp": 2,
+      "sp": 0,
+      "cp": 0
+    }
+  },
+  {
+    "item": "Crowbar",
+    "cost": {
+      "gp": 2,
+      "sp": 0,
+      "cp": 0
+    }
+  },
+  {
+    "item": "Flask, empty",
+    "cost": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 3
+    }
+  },
+  {
+    "item": "Flint& steel",
+    "cost": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 15
+    }
+  },
+  {
+    "item": "Grappling hook",
+    "cost": {
+      "gp": 1,
+      "sp": 0,
+      "cp": 0
+    }
+  },
+  {
+    "item": "Hammer, small",
+    "cost": {
+      "gp": 0,
+      "sp": 5,
+      "cp": 0
+    }
+  },
+  {
+    "item": "Holy symbol",
+    "cost": {
+      "gp": 25,
+      "sp": 0,
+      "cp": 0
+    }
+  },
+  {
+    "item": "Holy water, 1 vial",
+    "cost": {
+      "gp": 25,
+      "sp": 0,
+      "cp": 0
+    }
+  },
+  {
+    "item": "Iron spikes",
+    "cost": {
+      "gp": 0,
+      "sp": 1,
+      "cp": 0
+    }
+  },
+  {
+    "item": "Lantern",
+    "cost": {
+      "gp": 10,
+      "sp": 0,
+      "cp": 0
+    }
+  },
+  {
+    "item": "Mirror, hand-sized",
+    "cost": {
+      "gp": 10,
+      "sp": 0,
+      "cp": 0
+    }
+  },
+  {
+    "item": "Oil, 1 flask",
+    "cost": {
+      "gp": 0,
+      "sp": 2,
+      "cp": 0
+    }
+  },
+  {
+    "item": "Pole, 10-foot",
+    "cost": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 15
+    }
+  },
+  {
+    "item": "Rations, per day",
+    "cost": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 5
+    }
+  },
+  {
+    "item": "Rope, 50’",
+    "cost": {
+      "gp": 0,
+      "sp": 25,
+      "cp": 0
+    }
+  },
+  {
+    "item": "Sack, large",
+    "cost": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 12
+    }
+  },
+  {
+    "item": "Sack, small",
+    "cost": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 8
+    }
+  },
+  {
+    "item": "Thieves’ tools",
+    "cost": {
+      "gp": 25,
+      "sp": 0,
+      "cp": 0
+    }
+  },
+  {
+    "item": "Torch",
+    "cost": {
+      "gp": 0,
+      "sp": 0,
+      "cp": 1
+    }
+  },
+  {
+    "item": "Waterskin",
+    "cost": {
+      "gp": 0,
+      "sp": 5,
+      "cp": 0
+    }
   }
 ]

@@ -15,10 +15,15 @@ export type Attribute = {
     modifier: number;
 }
 
-export type Money = {
+export type Currency = {
     gp: number;
     sp: number;
     cp: number;
+};
+
+export type EquipmentItem = {
+    item: string;
+    cost: Currency;
 };
 
 export type Character = {
@@ -32,6 +37,7 @@ export type Character = {
     luck: Attribute;
     occupation: Occupation;
     luckySign: LuckySign;
-    funds: Money;
+    funds: Currency;
     experience_points: number;
+    equipment: EquipmentItem[];
 };

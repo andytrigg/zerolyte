@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
 import {Character} from '../utils/types';
 import {generateCharacter} from '../utils/generateCharacter';
-import './CharacterGenerator.css'; // Or wherever you put the shake animation
+import './CharacterGenerator.css';
+import CurrencyDisplay from "./CurrencyDisplay"; // Or wherever you put the shake animation
 
 function formatMod(mod: number) {
     const sign = mod > 0 ? '+' : '';
@@ -21,33 +22,43 @@ const CharacterGenerator: React.FC = () => {
     };
 
     return (
-        <div>
-            <h2>👶 Generate Level 0 DCC Character</h2>
-            <button onClick={handleGenerate}>Generate Character</button>
+        <div className="character-generator">
+            <h2>🧙 Generate Level 0 DCC Character</h2>
+            <button className="generate-btn" onClick={handleGenerate}>Roll New Character</button>
 
             {character && (
-                <div style={{marginTop: '1rem'}}>
-                    <p><strong>Level:</strong> {character.level}</p>
-                    <p><strong>Experience Points:</strong> {character.experience_points}</p>
-                    <p><strong>Hit points:</strong> {character.hit_points}</p>
-                    <p><strong>Occupation:</strong> {character.occupation.occupation}</p>
-                    <p><strong>Lucky Sign:</strong> {character.luckySign.birth_augur}</p>
-                    <ul>
-                        <li><strong>STR:</strong> {character.strength.value} {formatMod(character.strength.modifier)}
-                        </li>
-                        <li><strong>AGI:</strong> {character.agility.value} {formatMod(character.agility.modifier)}
-                        </li>
-                        <li><strong>STA:</strong> {character.stamina.value} {formatMod(character.stamina.modifier)}
-                        </li>
-                        <li>
+                <div className="character-card">
+                    <h3>{character.occupation.occupation}</h3>
+                    <p><em>Lucky Sign:</em> {character.luckySign.birth_augur}</p>
+                    <p>
+                        <strong>Level:</strong> {character.level} | <strong>XP:</strong> {character.experience_points} | <strong>HP:</strong> {character.hit_points}
+                    </p>
+
+                    <div className="abilities">
+                        <div><strong>STR:</strong> {character.strength.value} {formatMod(character.strength.modifier)}
+                        </div>
+                        <div><strong>AGI:</strong> {character.agility.value} {formatMod(character.agility.modifier)}
+                        </div>
+                        <div><strong>STA:</strong> {character.stamina.value} {formatMod(character.stamina.modifier)}
+                        </div>
+                        <div>
                             <strong>INT:</strong> {character.intelligence.value} {formatMod(character.intelligence.modifier)}
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <strong>PER:</strong> {character.personality.value} {formatMod(character.personality.modifier)}
-                        </li>
-                        <li><strong>LCK:</strong> {character.luck.value} {formatMod(character.luck.modifier)}</li>
-                        <li>
-                            <strong>Funds:</strong> {character.funds.gp} gp, {character.funds.sp} sp, {character.funds.cp} cp</li>
+                        </div>
+                        <div><strong>LCK:</strong> {character.luck.value} {formatMod(character.luck.modifier)}</div>
+                    </div>
+
+                    <p>
+                        <strong>Funds:</strong> <CurrencyDisplay funds={character.funds} />
+                    </p>
+
+                    <p><strong>Equipment:</strong></p>
+                    <ul>
+                        {character.equipment.map((eq, idx) => (
+                            <li key={idx}>{eq.item} (<CurrencyDisplay funds={eq.cost} />)</li>
+                        ))}
                     </ul>
                 </div>
             )}

@@ -1,10 +1,10 @@
-import {Money} from "./types";
+import {Currency} from "./types";
 
-export function totalInCopper(funds: Money): number {
+export function totalInCopper(funds: Currency): number {
     return (funds.gp * 100) + (funds.sp * 10) + funds.cp;
 }
 
-export function normalizeFunds(copperTotal: number): Money {
+export function normalizeFunds(copperTotal: number): Currency {
     const gp = Math.floor(copperTotal / 100);
     copperTotal %= 100;
 

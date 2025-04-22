@@ -1,11 +1,12 @@
 import { rollDice } from './rollDice';
 import occupationData from '../data/occupations.json';
 import luckSignsData from '../data/luckSigns.json';
-import {Occupation, Character, LuckySign, Money} from './types';
+import equipmentData from '../data/equipment.json';
+import {Occupation, Character, LuckySign, Currency, EquipmentItem} from './types';
 import {getAbilityModifier} from "./modifiers";
 import {normalizeFunds} from "./currency"; // if you split your types
 
-function generateStartingFunds(): Money {
+function generateStartingFunds(): Currency {
     const copper = rollDice(5, 12).reduce((sum, roll) => sum + roll, 0);
     return normalizeFunds(copper);
 }
@@ -15,6 +16,7 @@ export function generateCharacter(): Character {
     const roll1d4 = () => rollDice(1, 4).reduce((a, b) => a + b, 0);
     const occupation: Occupation = occupationData[Math.floor(Math.random() * occupationData.length)];
     const luckySign: LuckySign = luckSignsData[Math.floor(Math.random() * luckSignsData.length)];
+    const startingEquipment: EquipmentItem = equipmentData[Math.floor(Math.random() * equipmentData.length)];
     let strength = roll3d6();
     let agility = roll3d6();
     let stamina = roll3d6();
@@ -52,6 +54,7 @@ export function generateCharacter(): Character {
         occupation,
         luckySign: luckySign,
         hit_points: roll1d4() + Math.max(0, staminaModifier),
-        funds: generateStartingFunds()
+        funds: generateStartingFunds(),
+        equipment: [startingEquipment]
     };
 }

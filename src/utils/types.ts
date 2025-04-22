@@ -26,7 +26,10 @@ export type EquipmentItem = {
     cost: Currency;
 };
 
+export type Alignment = 'Lawful' | 'Neutral' | 'Chaotic';
+
 export type Character = {
+    alignment: Alignment;
     hit_points: number;
     level: number;
     strength: Attribute;

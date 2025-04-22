@@ -45,14 +45,14 @@
     font-family: monospace;
 }
 
-.mod-positive {
-    color: #4caf50;
+.alignment-lawful {
+    color: blue;
 }
 
-.mod-negative {
-    color: #f44336;
+.alignment-neutral {
+    color: gray;
 }
 
-.mod-neutral {
-    color: #ccc;
+.alignment-chaotic {
+    color: red;
 }

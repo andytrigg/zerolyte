@@ -2,7 +2,7 @@ import { rollDice } from './rollDice';
 import occupationData from '../data/occupations.json';
 import luckSignsData from '../data/luckSigns.json';
 import equipmentData from '../data/equipment.json';
-import {Occupation, Character, LuckySign, Currency, EquipmentItem} from './types';
+import {Occupation, Character, LuckySign, Currency, EquipmentItem, Alignment} from './types';
 import {getAbilityModifier} from "./modifiers";
 import {normalizeFunds} from "./currency"; // if you split your types
 
@@ -11,7 +11,7 @@ function generateStartingFunds(): Currency {
     return normalizeFunds(copper);
 }
 
-export function generateCharacter(): Character {
+export function generateCharacter(alignment: Alignment): Character {
     const roll3d6 = () => rollDice(3, 6).reduce((a, b) => a + b, 0);
     const roll1d4 = () => rollDice(1, 4).reduce((a, b) => a + b, 0);
     const occupation: Occupation = occupationData[Math.floor(Math.random() * occupationData.length)];
@@ -25,6 +25,7 @@ export function generateCharacter(): Character {
     let luck = roll3d6();
     let staminaModifier = getAbilityModifier(stamina);
     return {
+        alignment,
         level: 0,
         experience_points: 0,
         strength: {
